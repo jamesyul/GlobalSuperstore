@@ -44,9 +44,11 @@ El script `clean_global_superstore.ipynb` realiza las siguientes operaciones:
 ## Visualizaciones en Tableau
 El dashboard incluye:
 - Análisis de ventas por región
+<img src="../Tableau/Sales_by_region.png" width="500" height="300" alt="Título de la imagen">
 - Tendencias temporales
 - Segmentación de productos
 - Análisis de clientes frecuentes
+![Frequen customers](../Tableau/Frequent_customers.png)
 - Predicciones de ventas
 
 ## Herramientas Utilizadas
@@ -91,9 +93,3 @@ El dashboard permite:
 [![Título de la imagen](ruta/a/tu/imagen.png)](https://enlace-al-hacer-clic.com)
 
 <!-- Especificando dimensiones (esto funciona en GitHub) -->
-<img src="ruta/a/tu/imagen.png" width="500" height="300" alt="Título de la imagen">
-
-<div class='tableauPlaceholder'>
-    <iframe src='https://public.tableau.com/views/TuDashboard?:embed=yes&:showVizHome=no'>
-    </iframe>
-</div>
