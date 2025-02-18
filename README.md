@@ -45,11 +45,16 @@ El script `clean_global_superstore.ipynb` realiza las siguientes operaciones:
 El dashboard incluye:
 - Análisis de ventas por región
 ![Análisis de ventas por región](./Tableau/Sales_by_region.png)
-- Tendencias temporales
-- Segmentación de productos
+- Tendencias temporales y predicciones
+![Series temporales con pronósticos](./Tableau/Time_series_with_forecasting.png)
+- Mapa de calor de ventas por categoría y tiempo
+![Mapa de calor](./Tableau/Heat_map.png)
 - Análisis de clientes frecuentes
 ![Análisis de clientes frecuentes](./Tableau/Frequent_customers.png)
-- Predicciones de ventas
+- Diagrama de correlación
+![Diagrama de correlación](./Tableau/Correlation_diagram.png)
+- Ventas por producto y mes
+![Ventas por producto y mes](./Tableau/Sales_by_product_and_year_month.png)
 
 ## Herramientas Utilizadas
 - **Python**
@@ -70,18 +75,27 @@ El dashboard incluye:
    - Abrir Tableau Public
    - Cargar `Tableau/ventas_globales.twb`
    - Interactuar con los filtros disponibles:
-     - País/Región
-     - Categoría de producto
-     - Período temporal
+     - País/Región (usando el mapa interactivo)
+     - Categoría de producto (usando el mapa de calor)
+     - Período temporal (usando el gráfico de series temporales)
+     - Análisis de correlaciones
+     - Segmentación de clientes
+     - Tendencias por producto
 
 ## Resultados y Análisis
 El dashboard permite:
-- Identificar tendencias de ventas por región
-- Analizar patrones de compra de clientes
-- Realizar predicciones de ventas futuras
-- Tomar decisiones basadas en datos sobre inventario y marketing
+- Identificar tendencias de ventas por región mediante mapas interactivos globales
+- Analizar patrones de compra de clientes a través de series temporales
+- Visualizar correlaciones entre ventas y beneficios
+- Monitorear el rendimiento por categoría de producto usando mapas de calor
+- Realizar predicciones de ventas futuras con análisis de tendencias
+- Identificar estacionalidad en las ventas por subcategoría
+- Tomar decisiones basadas en datos sobre:
+  - Gestión de inventario por región
+  - Estrategias de marketing por categoría
+  - Optimización de recursos por temporada
 
 ## Próximos Pasos
-- Implementar análisis predictivo más avanzado
-- Agregar más métricas de rendimiento
-- Incorporar análisis de sentimiento de clientes
+- Implementar análisis predictivo más avanzado:
+- Agregar más métricas de rendimiento:
+- Incorporar nuevas funcionalidades
